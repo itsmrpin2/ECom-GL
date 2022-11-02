@@ -1,5 +1,14 @@
 package com.rk.product.dto;
 
-public class Category {
+import javax.persistence.Id;
 
+import lombok.Data;
+
+@Data
+public class Category {
+	
+	@Id
+	private Integer id;
+	private String name;
+	private String brand;
 }
