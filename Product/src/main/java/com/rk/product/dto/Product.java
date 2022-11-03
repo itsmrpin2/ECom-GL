@@ -31,7 +31,7 @@ public class Product {
 	
 	private double discount;
 
-	private double discountDiscription;
+	private String discountDiscription;
 
 	private List<String> imageURLs;
 

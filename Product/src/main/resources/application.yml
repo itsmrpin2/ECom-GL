@@ -1,0 +1,6 @@
+server:
+  port: 9031
+  
+spring:
+  application:
+    name: Product Microservices
